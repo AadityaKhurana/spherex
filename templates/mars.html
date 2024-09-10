@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel = "icon" href = "/static/Icon.png" type = "image/x-icon"> 
+    <title>Mars</title>
+    <style>
+        .topnav{
+        background-color:black;
+        overflow: hidden;
+        width: 100%;
+      }
+
+      .topnav a{
+        color: white;
+        text-align: center;
+        padding: 1% 1.2%;
+        text-decoration: none;
+        float: left;
+        margin-left: 0.3%;
+
+      }
+      .topnav img{
+        height: 1%;
+        width: 7%;
+        float: left;
+        margin-left: 1%;
+      }
+      .topnav a:hover {
+        background-color:lightblue;
+        color:black;
+      }
+      .topnav a.active {
+        background-color:lightblue;
+        color: black;
+      }
+    </style>
+</head>
+<body style="margin: 0px;overflow-x: hidden;font-family: Arial, Helvetica, sans-serif;">
+  <nav>
+    <div class="topnav">
+      <img src="/static/Icon1.png" alt="" class="topnav">
+      <div class="link">
+        <a href="/index">Home</a>
+        <a class="active" href="/destination">Choose Destination</a>
+        <a href="/covid19">COVID Safe</a>
+        <a href="/support">24/7 Support</a>
+        <a href="/aboutus">About Us</a>
+      </div>
+      </div>
+  </nav>
+    
+    <div style="position: relative;text-align: center;color:white;">
+      <img src="/static/mars.jpg" style="width: 100%; height: 670px;">
+      <h1 style="position: absolute;top: 15%;left: 51%;transform: translate(-50%, -50%);">Welcome To The <br>Red Planet Mars</h1>
+      <img style="position: absolute;top: 90%;left: 51.5%;transform: translate(-50%, -50%); width: 10%; height: 20%;" src="/static/scrolldown.gif" alt="">
+    </div>
+
+    <div>
+      <div style="float: left; width: 78%;" data-aos="fade-right">
+        <h1 style="margin-left: 2%; margin-top: 2%; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">About Mars</h1>
+        <p style="margin-left: 3%; margin-right: 0%;">The fourth planet from the Sun, Mars is a dusty, cold, desert world with a very thin atmosphere. This dynamic planet has seasons, polar ice caps and weather and canyons and extinct volcanoes, evidence of an even more active past.</p>
+      </div>
+      <div style="float: right; width: 21%; background-color: grey; margin-top: 1%; margin-right: 1%;" data-aos="fade-up">
+        <p style="font-size: 120%; margin-top: 5%; margin-left: 5%; color: white; font-family: 'sans-serif';"><span style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 130%; color:cornsilk">Trip Details:</span><br>From: {{fr}}<br>Destination: {{dest}}<br>Class: {{cl}}<br>Price Per Person: ₹{{ppc}}<br>Number of Passengers: {{pass}}<br>Total Price of the trip: ₹{{fin_ppc}} <br><a href="/booked" style="color: yellow;">Book Now!</a></p>
+      </div>
+    </div>
+    
+    <div data-aos="zoom-in">
+      <h1 style="margin-left: 2%; margin-top: 2%; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; float: left;">Things To do on Mars</h1>
+      <div class="row row-cols-1 row-cols-md-4" style="margin-left: 3%; margin-right: 3%; margin-top: 2%; float: left;">
+        <div class="col">
+          <div class="card" style="width: 105%;height: 100%;">
+            <img src="/static/marsmountain.jpg" class="card-img-top" style="width: 80%; margin-left: 10%;">
+            <div class="card-body">
+              <h5 class="card-title" style="font-size: 150%; text-align: center;">Visit to Olympus Mons</h5>
+              <p class="card-text">Special Attractions:<br>• Largest Mountain in the Solar System<br>• Adventourus Rock Climbing<br>• Outdoor Camping</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 105%;height: 100%;">
+            <img src="/static/marsvol.jpg" class="card-img-top" style="width: 100%;margin-left: 0%;">
+            <div class="card-body">
+              <h5 class="card-title" style="font-size: 148%; text-align: center;">Visit To the Tharsis Volcanoes</h5>
+              <p class="card-text">Special Attractions:<br>• A group of 12 Volcanos of Size Double of Mount Everest<br>• Visit to the Diamond Cave<br>• A visit to the largest Frozen Gold Mine</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 105%;height: 100%;">
+            <img src="/static/marspole.jpg" class="card-img-top" style="width: 100%;margin-left: 0%;">
+            <div class="card-body">
+              <h5 class="card-title" style="font-size: 130%; text-align: center;"> A visit To Icy Poles of The Red Planet</h5>
+              <p class="card-text">Special Attractions:<br>• A skiing Tour<br>• A visit to whale Zoo<br>• A Visit to the Dry Ice Cave</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 105%;height: 100%;">
+            <img src="/static/marscanyon.jpg" class="card-img-top" style="width: 70%;margin-left: 15%;">
+            <div class="card-body">
+              <h5 class="card-title" style="font-size: 150%; text-align: center;">A visit To Valles Marineris</h5>
+              <p class="card-text">Special Attractions:<br>• The Largest Canyon<br>• Helicopter Tour<br>• A skywalk Over the Canyon</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</body>
+<script>
+  AOS.init();
+</script>
+</html>

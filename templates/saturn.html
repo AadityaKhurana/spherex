@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel = "icon" href = "/static/Icon.png" type = "image/x-icon"> 
+    <title>Saturn</title>
+    <style>
+        .topnav{
+        background-color:black;
+        overflow: hidden;
+        width: 100%;
+      }
+
+      .topnav a{
+        color: white;
+        text-align: center;
+        padding: 1% 1.2%;
+        text-decoration: none;
+        float: left;
+        margin-left: 0.3%;
+
+      }
+      .topnav img{
+        height: 1%;
+        width: 7%;
+        float: left;
+        margin-left: 1%;
+      }
+      .topnav a:hover {
+        background-color:lightblue;
+        color:black;
+      }
+      .topnav a.active {
+        background-color:lightblue;
+        color: black;
+      }
+    </style>
+</head>
+<body style="margin: 0px;overflow-x: hidden;font-family: Arial, Helvetica, sans-serif;">
+  <nav>
+    <div class="topnav">
+      <img src="/static/Icon1.png" alt="" class="topnav">
+      <div class="link">
+        <a href="/index">Home</a>
+        <a class="active" href="/destination">Choose Destination</a>
+        <a href="/covid19">COVID Safe</a>
+        <a href="/support">24/7 Support</a>
+        <a href="/aboutus">About Us</a>
+      </div>
+      </div>
+  </nav>
+    
+    <div style="position: relative;text-align: center;color:white;">
+      <img src="/static/saturn.jpg" style="width: 100%; height: 670px;">
+      <h1 style="position: absolute;top: 25%;left: 30%;transform: translate(-50%, -50%);">Welcome To The <br>Ringed Planet Saturn</h1>
+      <img style="position: absolute;top: 90%;left: 51.5%;transform: translate(-50%, -50%); width: 10%; height: 20%;" src="/static/scrolldown.gif" alt="">
+    </div>
+
+    <div>
+      <div style="float: left; width: 78%;" data-aos="fade-right">
+        <h1 style="margin-left: 2%; margin-top: 2%; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">About Saturn</h1>
+        <p style="margin-left: 3%; margin-right: 0%;">Saturn is the sixth planet from the Sun and the second largest planet in our solar system. Adorned with thousands of beautiful ringlets, Saturn is unique among the planets. It is not the only planet to have rings—made of chunks of ice and rock—but none are as spectacular or as complicated as Saturn's.</p>
+      </div>
+      <div style="float: right; width: 21%; background-color: grey; margin-top: 1%; margin-right: 1%;" data-aos="fade-up">
+        <p style="font-size: 120%; margin-top: 5%; margin-left: 5%; color: white; font-family: 'sans-serif';"><span style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 130%; color:cornsilk">Trip Details:</span><br>From: {{fr}}<br>Destination: {{dest}}<br>Class: {{cl}}<br>Price Per Person: ₹{{ppc}}<br>Number of Passengers: {{pass}}<br>Total Price of the trip: ₹{{fin_ppc}} <br><a href="/booked" style="color: yellow;">Book Now!</a></p>
+      </div>
+    </div>
+    
+    <div data-aos="zoom-in">
+      <h1 style="margin-left: 2%; margin-top: 2%; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; float: left;">Things To do on Saturn</h1>
+      <div class="row row-cols-1 row-cols-md-4" style="margin-left: 3%; margin-right: 3%; margin-top: 2%; float: left;">
+        <div class="col">
+          <div class="card" style="width: 105%;height: 100%;">
+            <img src="/static/saturnring.jpg" class="card-img-top" style="width: 100%; margin-left: 0%;">
+            <div class="card-body">
+              <h5 class="card-title" style="font-size: 150%; text-align: center;">Visit to The Rings</h5>
+              <p class="card-text">Special Attractions:<br>• A Stay at the Largest Ring of Saturn<br>• Roller Coaster on the Rings<br>• A tour in a High Speed Open Glider</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 105%;height: 100%;">
+            <img src="/static/saturnsurf.jpg" class="card-img-top" style="width: 80%;margin-left: 10%;">
+            <div class="card-body">
+              <h5 class="card-title" style="font-size: 148%; text-align: center;">Adventure Park</h5>
+              <p class="card-text">Special Attractions:<br>• Jumping till a height of 250m<br>• Surfing in the High Speed Winds<br>• A game of Ice Baseball</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 105%;height: 100%;">
+            <img src="/static/saturnmuseum.jpg" class="card-img-top" style="width: 100%;margin-left: 0%;">
+            <div class="card-body">
+              <h5 class="card-title" style="font-size: 130%; text-align: center;"> A visit To Crater and Ring Museum</h5>
+              <p class="card-text">Special Attractions:<br>• A visit to the Gift Shop<br>• A tour through the Museum on a HoverBoard<br>• A dive into the divine lake</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 105%;height: 100%;">
+            <img src="/static/saturndiamond.jpg" class="card-img-top" style="width: 100%;margin-left: 0%;">
+            <div class="card-body">
+              <h5 class="card-title" style="font-size: 150%; text-align: center;">A visit To The Diamond Rain Spot</h5>
+              <p class="card-text">Special Attractions:<br>• Collection of Diamond<br>• Jewelery Making<br>• A visit to Diamond Pond</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>  
+</body>
+<script>
+  AOS.init();
+</script>
+</html>
