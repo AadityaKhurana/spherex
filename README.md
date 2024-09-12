@@ -1,15 +1,8 @@
 
-<p align="center">
-  <img src="https://img.icons8.com/?size=512&id=55494&format=png" width="20%" alt="SPHEREX.GIT-logo">
-</p>
-<p align="center">
-    <h1 align="center">SPHEREX.GIT</h1>
-</p>
-<p align="center">
-	<img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="license">
-</p>
 
-<br>
+<p align="center">
+  <img src="https://github.com/AadityaKhurana/spherex/blob/main/static/Icon1.png?raw=true" width="30%" alt="SPHEREX-logo">
+</p>
 <p align="center">
 		<em>Built with the tools and technologies:</em>
 </p>
@@ -22,15 +15,14 @@
 
 #####  Table of Contents
 
-- [ Overview](#-overview)
-- [ Features](#-features)
-- [ Repository Structure](#-repository-structure)
-- [ Getting Started](#-getting-started)
-    - [ Prerequisites](#-prerequisites)
-    - [ Installation](#-installation)
-    - [ Usage](#-usage)
-    - [ Tests](#-tests)
-- [ License](#-license)
+- [Overview](#-overview)
+- [Features](#-features)
+- [Repository Structure](#-repository-structure)
+- [Getting Started](#-getting-started)
+    - [Prerequisites](#-prerequisites)
+    - [Installation](#-installation)
+    - [Usage](#-usage)
+- [License](#-license)
 
 ---
 
