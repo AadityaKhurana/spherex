@@ -1,5 +1,3 @@
-
-
 <p align="center">
   <img src="https://github.com/AadityaKhurana/spherex/blob/main/static/Icon1.png?raw=true" width="30%" alt="SPHEREX-logo">
 </p>
@@ -41,27 +39,33 @@ Build the project from source:
 
 1. Clone the spherex repository:
 ```sh
-❯ git clone https://github.com/AadityaKhurana/spherex.git
+git clone https://github.com/AadityaKhurana/spherex.git
 ```
 
 2. Navigate to the project directory:
 ```sh
-❯ cd spherex
+cd spherex
 ```
 
 3. Install the required dependencies:
 ```sh
-❯  pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 ###  Usage
 
-To run the project, execute the following command:
+- To run the project in windows, execute the following command:
 
 ```sh
-❯ ❯ INSERT-RUN-COMMANDS
+python server.py
+```
+- To run the project in Mac/Linux, execute the following command:
+
+```sh
+python3 server.py
 ```
 
+Open local server at port 5000, http://127.0.0.1:5000
 
 ##  License
 
