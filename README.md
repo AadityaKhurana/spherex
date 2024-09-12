@@ -15,149 +15,43 @@
 
 #####  Table of Contents
 
-- [Overview](#-overview)
-- [Features](#-features)
-- [Repository Structure](#-repository-structure)
-- [Getting Started](#-getting-started)
-    - [Prerequisites](#-prerequisites)
-    - [Installation](#-installation)
-    - [Usage](#-usage)
-- [License](#-license)
+- [Overview](#overview)
+- [Getting Started](#getting-started)
+    - [Prerequisites](#prerequisites)
+    - [Installation](#installation)
+    - [Usage](#usage)
+- [License](#license)
 
----
+
 
 ##  Overview
 
-<code>❯ REPLACE-ME</code>
-
----
-
-##  Features
-
-<code>❯ REPLACE-ME</code>
-
----
-
-##  Repository Structure
-
-```sh
-└── spherex.git/
-    ├── data.csv
-    ├── readme.docx
-    ├── server.py
-    ├── static
-    │   ├── Home.png
-    │   ├── Icon.png
-    │   ├── Icon1.png
-    │   ├── Icon2.gif
-    │   ├── background.jpg
-    │   ├── contact.jpg
-    │   ├── covid.jpg
-    │   ├── covid1.jpg
-    │   ├── covidmed.jpg
-    │   ├── covidmed1.jpg
-    │   ├── covidspace.jpg
-    │   ├── covidtrain.png
-    │   ├── covidwash.jpg
-    │   ├── crater.png
-    │   ├── earth.jpg
-    │   ├── earthcave.jpg
-    │   ├── earthlake.webp
-    │   ├── earthsaltlake.webp
-    │   ├── earthwond.jpg
-    │   ├── formback1.jpg
-    │   ├── formback2.png
-    │   ├── formback3.jpg
-    │   ├── formback5.png
-    │   ├── formback7.png
-    │   ├── greekgod.jfif
-    │   ├── homepic.png
-    │   ├── homepic1.jpg
-    │   ├── ice.jpg
-    │   ├── jupiter.jpg
-    │   ├── jupiteredspot.jpg
-    │   ├── jupiterlo.jpg
-    │   ├── jupitermoon.jpg
-    │   ├── jupitertemple.jpg
-    │   ├── mars.jpg
-    │   ├── marscanyon.jpg
-    │   ├── marsmountain.jpg
-    │   ├── marspole.jpg
-    │   ├── marsvol.jpg
-    │   ├── mercury.jpg
-    │   ├── mercury1.jpg
-    │   ├── mercury2.jpg
-    │   ├── neptune.jpg
-    │   ├── neptune1.jpg
-    │   ├── neptunecamp.jpg
-    │   ├── neptunecave.jpg
-    │   ├── neptuneice.jpg
-    │   ├── neptunemoons.jpg
-    │   ├── saturn.jpg
-    │   ├── saturndiamond.jpg
-    │   ├── saturnmuseum.jpg
-    │   ├── saturnring.jpg
-    │   ├── saturnsurf.jpg
-    │   ├── scrolldown.gif
-    │   ├── success.png
-    │   ├── sun.jpg
-    │   ├── uranus.jpg
-    │   ├── uranushover.jpg
-    │   ├── uranuskart.jpg
-    │   ├── uranusring.jpg
-    │   ├── uranusswim.jpg
-    │   ├── venus.jpg
-    │   ├── venus1.jpg
-    │   ├── venusgod.jpg
-    │   ├── venusriver.jpg
-    │   ├── venustemp.jpg
-    │   ├── venusvol.jpg
-    │   └── why choose us.jpg
-    └── templates
-        ├── aboutus.html
-        ├── book.html
-        ├── contactus.html
-        ├── covid.html
-        ├── destination.html
-        ├── earth.html
-        ├── index.html
-        ├── jupiter.html
-        ├── mars.html
-        ├── mercury.html
-        ├── neptune.html
-        ├── saturn.html
-        ├── support.html
-        ├── uranus.html
-        └── venus.html
-```
-
----
-
+Welcome to the Spherex project! This repository hosts the source code for an innovative web application designed to offer exciting space travel experiences to adventurous users. The platform allows users to explore various destinations across the solar system, book space tours, and access detailed information on spacecraft, accommodations, and itineraries.
 
 
 ##  Getting Started
 
 ###  Prerequisites
 
-**HTML**: `version x.y.z`
+**Python**: `version 3.11.1`
 
 ###  Installation
 
 Build the project from source:
 
-1. Clone the spherex.git repository:
+1. Clone the spherex repository:
 ```sh
 ❯ git clone https://github.com/AadityaKhurana/spherex.git
 ```
 
 2. Navigate to the project directory:
 ```sh
-❯ cd spherex.git
+❯ cd spherex
 ```
 
 3. Install the required dependencies:
 ```sh
-❯ ❯ INSERT-INSTALL-COMMANDS
+❯  pip install -r requirements.txt
 ```
 
 ###  Usage
@@ -167,8 +61,6 @@ To run the project, execute the following command:
 ```sh
 ❯ ❯ INSERT-RUN-COMMANDS
 ```
-
-
 
 
 ##  License
